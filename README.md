@@ -8,7 +8,7 @@ No external dependencies. Just Python 3.10+ and tkinter.
 
 Clone the repo. Make sure tkinter is available:
 
-```
+```ruby
 # Debian/Ubuntu
 sudo apt install python3-tk
 
@@ -23,7 +23,7 @@ brew install python-tk
 
 Generate a button from the terminal:
 
-```
+```ruby
 python button_gen.py "Click Me"
 ```
 
@@ -33,7 +33,7 @@ The window opens with a styled, interactive button. Clicking it prints to stdout
 
 Seven built-in presets:
 
-```
+```ruby
 python button_gen.py "Submit"  --style primary
 python button_gen.py "Cancel"  --style secondary
 python button_gen.py "Saved"   --style success
@@ -45,13 +45,13 @@ python button_gen.py "Info"    --style light
 
 ### Dark theme
 
-```
+```ruby
 python button_gen.py "Launch" --style danger --dark
 ```
 
 ### Custom colors
 
-```
+```ruby
 python button_gen.py "Purple" --bg "#8b5cf6" --fg white --dark
 ```
 
@@ -198,13 +198,13 @@ The `examples/` folder contains working applications that demonstrate the widget
 
 Run any of them directly:
 
-```
+```ruby
 python examples/deploy_console.py
 ```
 
 ## Project structure
 
-```
+```ruby
 button_gen.py          Single-file library + CLI
 examples/
   login_form.py        Form with validation
